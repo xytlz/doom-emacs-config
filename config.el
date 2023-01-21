@@ -120,6 +120,6 @@
                 :desc"lsp"
                 "l" #'lsp-org)
                 ))
-(after! tramp
-  (setq tramp-verbose 10)
-  )
+;; (after! tramp
+;;   (setq tramp-verbose 10)
+;;   )
