@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:equ
+# key: equ
+# --
+\[
+$0
+\]
