@@ -77,12 +77,17 @@
 (map! :leader
       :desc"Comment or Uncomment"
       "cl" #'evilnc-comment-or-uncomment-lines)
+;; 虚拟终端
 (map! :leader
       :desc"Open vterm Here"
       ";" #'+vterm/here)
 (map! :leader
       :desc"dired"
       "d" #'dired)
+;; 创建正则匹配的buffer
+(map! :leader
+      :desc"occur"
+      "sc" #'occur)
 (after! org
         (add-to-list 'org-latex-default-packages-alist '("" "ctex" t ("xelatex")))
 
