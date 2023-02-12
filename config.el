@@ -123,3 +123,10 @@
 ;; (after! tramp
 ;;   (setq tramp-verbose 10)
 ;;   )
+(setq url-proxy-services
+      '(("https"     . "127.0.0.1:7890")
+        ("http"     . "127.0.0.1:7890")))
+;; (setq url-http-proxy-basic-auth-storage
+;;     (list (list "http://127.0.0.1:7890"
+;;                 (cons "Input your LDAP UID !"
+;;                       (base64-encode-string "login:lvyuanzhou")))))
